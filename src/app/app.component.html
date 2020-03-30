@@ -1,0 +1,26 @@
+<h1>
+  RandomDrillApp 2.0
+</h1>
+<p>
+  Dauer der Einheit
+</p>
+<div>
+  <input type="number" name="input" ng-model="example.value" min="0" max="99" value="2" required> min
+  <input type="number" name="input" ng-model="example.value" min="0" max="59" value="0" required> sek
+</div>
+<p>
+  Frequenz der Befehle
+</p>
+<div class="slidecontainer">
+  <input type="range" min="1" max="60" value="30" class="slider" id="frequenz">
+  <span style="float:left">
+    1
+  </span>
+  <span style="float:right">
+    60
+  </span>
+</div>
+<div style="clear:both">
+  <input type="button" onclick="alert('Hello World!')" value="Start" style="float:left">
+  <input type="button" onclick="alert('Hello World!')" value="Stop" style="float:right">
+</div>
