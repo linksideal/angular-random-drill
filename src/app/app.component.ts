@@ -8,7 +8,8 @@ import { Component } from '@angular/core';
 export class AppComponent  {
   playAudio(){
     let audio = new Audio();
-    audio.src = "../../../assets/audio/alarm.wav";
+    audio.src = "../assets/whistle.mp3";
+    window.alert(audio.src);
     audio.load();
     audio.play();
   }
